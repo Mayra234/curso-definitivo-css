@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: blueviolet;
+  min-width: 43;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding-top: 4px;
+}
+
+.nav li {
+  font-size: 1.6rem;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.main {
+  height: 550px;
+  background-color: burlywood;
+}
+
+.anuncios {
+  display: inline-block;
+  background-color: blue;
+  height: 100%;
+  width: 20%;
+  max-width: 170px;
+  padding: 10px;
+}
+
+.info-principal {
+  display: inline-block;
+  position: absolute;
+  padding: 10px;
+}
+
+.anun {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  background-color: cyan;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: chocolate;
+  height: calc(100% - 593px);
+  padding: 0px 10px;
+}

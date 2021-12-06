@@ -1,0 +1,10 @@
+/* h2 + p {
+  color: red;
+} // primer video de combinadores*/
+
+/* div > p {
+  color: red;
+} */
+div p {
+  color: red;
+}
